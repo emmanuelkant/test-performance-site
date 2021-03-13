@@ -1,0 +1,46 @@
+{
+  "name": "performance-site",
+  "version": "1.0.0",
+  "description": "This is a simple website that tests your snippet code and says to you how is your performance using Performance API from client browser.",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "server": "webpack serve --mode=development",
+    "deploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanuelkant/test-performance-site.git"
+  },
+  "keywords": [
+    "performance",
+    "performance",
+    "test",
+    "web",
+    "utils",
+    "web",
+    "performance"
+  ],
+  "author": "Emmanuel Kant Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmanuelkant/test-performance-site/issues"
+  },
+  "homepage": "https://github.com/emmanuelkant/test-performance-site#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "dotenv-webpack": "^7.0.1",
+    "html-webpack-plugin": "^5.3.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
